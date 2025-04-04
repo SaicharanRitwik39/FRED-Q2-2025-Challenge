@@ -1,6 +1,6 @@
 # FRED-Q2-2025-Challenge
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fred-q2-2025.streamlit.app/)
+[![Open with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fred-q2-2025.streamlit.app/)
 
 This Streamlit app provides **probabilistic forecasts** for selected questions from the **Federal Reserve Economic Data (FRED) Q2 2025 Challenge** using a hybrid of **Monte Carlo Simulations** and **Bootstrapping**.  
 
