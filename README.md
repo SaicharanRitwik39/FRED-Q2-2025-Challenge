@@ -1,5 +1,6 @@
 # FRED-Q2-2025-Challenge
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fred-q2-2025.streamlit.app/)
 This Streamlit app provides **probabilistic forecasts** for selected questions from the **Federal Reserve Economic Data (FRED) Q2 2025 Challenge** using a hybrid of **Monte Carlo Simulations** and **Bootstrapping**.  
 
 ---
@@ -30,14 +31,6 @@ This app combines two forecasting techniques:
 - **Bootstrapping** draws from **historical returns** to preserve empirical features like skewness and fat tails.
 
 These are blended via a **weighted average** to strike a balance between theoretical structure and data-driven realism.
-
-### ✅ Why This Hybrid Approach?
-- **Analytical Tractability + Realism**  
-  MCS provides a clean, flexible simulation framework. Bootstrapping captures real-world behaviors absent in pure Gaussian models.
-- **Risk-Sensitive Forecasting**  
-  Bootstrapped samples help correct for underestimation of rare events typical in normal distributions.
-- **Customizability**  
-  Users can adjust simulation parameters, making the model adaptable to different forecasting scenarios.
 
 ### ⚠️ Limitations
 - **Normality Assumption**  
